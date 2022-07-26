@@ -1,0 +1,801 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>TEACHER LIST | HNP SCHOOL</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="https://hnpschoolnoa.edu.bd/frontend/images/logo/favicon.png">
+
+<link rel="stylesheet" href="https://hnpschoolnoa.edu.bd/frontend/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://hnpschoolnoa.edu.bd/frontend/css/animate.min.css">
+<link rel="stylesheet" href="https://hnpschoolnoa.edu.bd/frontend/css/meanmenu.css">
+<link rel="stylesheet" href="https://hnpschoolnoa.edu.bd/frontend/css/magnific-popup.css">
+<link rel="stylesheet" href="https://hnpschoolnoa.edu.bd/frontend/css/owl.carousel.min.css">
+<link rel="stylesheet" href="https://hnpschoolnoa.edu.bd/frontend/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://hnpschoolnoa.edu.bd/frontend/css/et-line-icon.css">
+<link rel="stylesheet" href="https://hnpschoolnoa.edu.bd/frontend/css/reset.css">
+<link rel="stylesheet" href="https://hnpschoolnoa.edu.bd/frontend/css/ionicons.min.css">
+<link rel="stylesheet" href="https://hnpschoolnoa.edu.bd/frontend/css/material-design-iconic-font.min.css">
+<link rel="stylesheet" href="https://hnpschoolnoa.edu.bd/frontend/css/style.css">
+<link rel="stylesheet" href="https://hnpschoolnoa.edu.bd/frontend/css/responsive.css">
+<script src="https://hnpschoolnoa.edu.bd/frontend/js/vendor/modernizr-3.11.2.min.js"></script>        <style>
+    .title-border{
+        font-size: 20px;
+        font-weight: 700;
+        font-family: kalpurush ,'Open Sans', sans-serif, 'Playfair Display', serif !important;
+        color: #00a3c8 !important;
+        padding-top: 45px;
+        position: relative;
+        left: 1%;
+    }
+    .title-border::before{
+        background-color: #00A3C8;
+        bottom: -2px;
+        content: "";
+        height: 2px;
+        position: absolute;
+        width: 65px;
+    }
+</style>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Header Area Start -->
+		<header class="top">
+            <div class="header-top">
+		        <div class="container">
+		            <div class="row">
+		                <div class="col-md-8 col-sm-9">
+		                    <div class="header-top-left">
+		                        <p>এম.পি.ও কোড : ১১০৬০১১৩০১ | বিদ্যালয় কোড : ৬০০১ | EIIN : 107537 | কেন্দ্র কোড : ৩০০</p>
+		                    </div>
+		                </div>
+		                <div class="col-md-4 col-sm-3">
+		                    <div class="header-top-right text-md-end text-center">
+		                        <ul>
+		                            <li><a style="right: 20%; background: red; padding: 5px 10px; border-radius: 5px; font-size: 14px; font-weight: 600; font-family: 'Open Sans', sans-serif; color: #fff; text-transform: uppercase; line-height: 68px; position: relative; z-index: 1;" href="https://hnp.paperless.academy/" target="_blank">
+                                        <i class="fa fa-sign-in"></i>
+                                        My App LogIn
+                                        </a>
+                                    </li>
+		                        </ul>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+			<div class="header-area two header-sticky">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-4 col-6">
+							<div class="logo" style="padding: 0; float: left;">
+								<a href="https://hnpschoolnoa.edu.bd"><img src="https://hnpschoolnoa.edu.bd/frontend/images/logo/icon.png" alt="eduhome" /></a>
+							</div>
+                            <div class="school_name">
+                                <h1 style="font-size: 16px;">হরিনারায়নপুর ইউনিয়ন উচ্চ বিদ্যালয়</h1>
+                                <h3>মাইজদী কোর্ট সদর নোয়াখালী</h3>
+                            </div>
+						</div>
+						<div class="col-md-8 col-sm-8 col-6">
+                            <div class="content-wrapper text-end">
+                                <!-- Main Menu Start -->
+                                <div class="main-menu">
+                                    <nav>
+                                        <ul>
+                                            <li><a href="https://hnpschoolnoa.edu.bd">HOME</a></li>
+                                            <li><a href="https://hnpschoolnoa.edu.bd/about-us">ABOUT</a></li>
+                                            <li><a href="https://hnpschoolnoa.edu.bd/notice-list">Notice</a></li>
+                                            <li><a href="#">GALLERY</a>
+                                                <ul>
+                                                    <li><a href="https://hnpschoolnoa.edu.bd/gallery-photo">PHOTO GALLERY</a></li>
+                                                    <li><a href="https://hnpschoolnoa.edu.bd/gallery-video">VIDEO GALLERY</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="https://hnpschoolnoa.edu.bd/teacher-list">TEACHER LIST</a></li>
+                                            <li><a href="https://hnpschoolnoa.edu.bd/online-class">Online Class</a></li>
+                                            <li><a href="https://hnpschoolnoa.edu.bd/contact-us">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <!--Search Form Start-->
+                                <!-- <div class="search-btn">
+                                    <ul class="header-search search-toggle">
+                                        <li class="search-menu">
+                                            <i class="fa fa-search"></i>
+                                        </li>
+                                    </ul>
+                                    <div class="search">
+                                        <div class="search-form">
+                                            <form id="search-form" action="##">
+                                                <input type="search" placeholder="Search here..." name="search" />
+                                                <button type="submit">
+                                                    <span><i class="fa fa-search"></i></span>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!--End of Search Form-->
+                                <!-- Main Menu End -->
+                            </div>
+						</div>
+                        <div class="col-12">
+                            <div class="mobile-menu hidden-sm"></div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Header Area End -->
+		<!-- Background Area Start -->
+
+		<!-- Background Area End -->
+                <section>
+        <div class="container">
+            <div class="section-title mb-30">
+                <div class="row">
+                <div class="col-md-12">
+                    <h4 class="text-uppercase text-theme-colored title-border m-0">our teachers </h4>
+                </div>
+                </div>
+            </div>
+            <!-- Teacher Start -->
+            <div class="teacher-area pt-50 pb-90">
+                <div class="container">
+                    <div class="row">
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2021/09/24/mizanur-rahman24-09-202116-10-59.jpg" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">md.mizanur rahman</a></h2>
+                                    <h4>Assistant Teacher</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2021/09/23/houjur-sir23-09-202120-19-08.JPG" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">a.t.m fakhrul islam</a></h2>
+                                    <h4>Senior Assistant Teacher</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnpschoolnoa.edu.bd/default/profile.png" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">a</a></h2>
+                                    <h4>senior teacher</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/users/2021/09/21/pp21-09-202110-28-24.jpg" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">MD.FEROZ ALAM</a></h2>
+                                    <h4>Assistant Teacher</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2021/09/24/dsc-000824-09-202115-42-51.JPG" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">Shahina Akther</a></h2>
+                                    <h4>Assistant Teacher</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnpschoolnoa.edu.bd/default/profile.png" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">Md.Sayeful Islam</a></h2>
+                                    <h4>Assistant Teacher (Business Studies)</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2021/12/07/bdjobsprofilepic07-12-202111-52-43.jpg" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">MD.SOHEL AHMED</a></h2>
+                                    <h4>ASSISTANT TEACHER</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2021/09/24/processed-24-09-202115-44-35.jpeg" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">Sopan Ranjan Saha</a></h2>
+                                    <h4>Senior Assistant Teacher</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnpschoolnoa.edu.bd/default/profile.png" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">GOLAM SARWAR</a></h2>
+                                    <h4>ASSISTANT TEACHER</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2022/01/13/saifulla-sir-pic-300-30013-01-202221-12-07.jpg" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">MD. KHALED SAIFULLAH</a></h2>
+                                    <h4>ASSISTANT TEACHER</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2021/09/24/md-islamic-hossain24-09-202116-15-21.jpg" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">Md. Ismail Hosen</a></h2>
+                                    <h4>Assistant Teacher</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2021/09/24/22551857-1499858443437780-830916934-n24-09-202116-04-32.jpg" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">Md. Ziaur Rahman</a></h2>
+                                    <h4>Assistant Teacher</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2021/09/24/22627387-1499837770106514-1772094467-n24-09-202115-54-50.jpg" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">Muhammad Ashraful Islam</a></h2>
+                                    <h4>Assistant Teacher</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2021/09/24/rita-rani-das24-09-202115-41-26.jpg" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">Rita Rani Dash</a></h2>
+                                    <h4>Senior Assistant Teacher</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2021/09/24/nargir-sultana24-09-202115-38-08.jpg" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">Nargis Sultana</a></h2>
+                                    <h4>Senior Assistant Teacher</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnpschoolnoa.edu.bd/default/profile.png" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">Didar Mahbub</a></h2>
+                                    <h4>Assistant Teacher</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnpschoolnoa.edu.bd/default/profile.png" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">PRADIP CHANDRA DAS2</a></h2>
+                                    <h4>ASSISTANT TEACHER</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnpschoolnoa.edu.bd/default/profile.png" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">ESRAT BINTE KADER</a></h2>
+                                    <h4>ASSISTANT TEACHER</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnpschoolnoa.edu.bd/default/profile.png" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">JANNATUL FERDOUS</a></h2>
+                                    <h4>ASSISTANT TEACHER</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2021/11/25/shohag-m-pic-300-30025-11-202112-02-49.jpg" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">SHOHAG MOJUMDER</a></h2>
+                                    <h4>ASSISTANT TEACHER</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2021/09/24/nasrin-sultana24-09-202115-53-45.jpg" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">NASRIN SULTANA</a></h2>
+                                    <h4>ASSISTANT TEACHER</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2021/09/24/tonni-ch24-09-202115-47-46.jpg" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">TANNI CHAKRAVORTI</a></h2>
+                                    <h4>ASSISTANT TEACHER</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2021/09/24/prodip-c24-09-202115-49-04.jpg" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">Pradip Chandra Das1</a></h2>
+                                    <h4>Assistant Teacher</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/users/2021/09/22/photo-copy22-09-202110-09-26.jpg" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">MD. SOHAG</a></h2>
+                                    <h4>ASSISTANT TEACHER</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2021/09/24/dsc-001524-09-202115-43-26.JPG" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">Shima Majumder</a></h2>
+                                    <h4>Senior Assistant Teacher</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2021/09/24/paci-sarker24-09-202115-51-35.jpg" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">Prachi Sarkar</a></h2>
+                                    <h4>Assistant Teacher</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2021/09/24/dsc-000724-09-202115-40-24.JPG" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">Kshatra Mohan Das</a></h2>
+                                    <h4>Senior Assistant Teacher</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2021/09/23/mostofa-kamal-sir23-09-202120-16-14.JPG" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">Md.Mostafa Kamal</a></h2>
+                                    <h4>Assistant Head Teacher</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2021/09/24/md-anwer-hossain24-09-202116-19-33.jpg" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">Anwar Hosen</a></h2>
+                                    <h4>Senior Assistant Teacher</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2021/11/28/untitled-128-11-202112-38-24.jpg" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">MD. AKIL UDDIN</a></h2>
+                                    <h4>ASISTANT TEACHER</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2021/11/23/photo-with-blue-couth23-11-202122-22-21.jpg" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">MOHAMMAD ALI</a></h2>
+                                    <h4>ASSISTANT TEACHER</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2021/09/24/jobira-siddik24-09-202115-38-46.jpg" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">Jobayara Siddique</a></h2>
+                                    <h4>Senior Assistant Teacher</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2021/09/23/head-sir-100k23-09-202120-12-10.JPG" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">A B M Abdul Alim</a></h2>
+                                    <h4>Head Master</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="single-teacher mb-45">
+                                <div class="single-teacher-img">
+                                                                            <a href="#"><img src="https://hnp.ntechbangla.com/images/teacher/2022/07/25/shimul-photo-225-07-202216-38-24.jpg" style="height: 200px;width: 170px;margin: 0 auto;display: block;" alt="teacher"></a>
+                                                                    </div>
+                                <div class="single-teacher-content text-center">
+                                    <h2><a href="#">MD. ABDUL AWAL</a></h2>
+                                    <h4>OFFICE ASSISTANT CUM-COMPUTER OPERATOR</h4>
+                                    <!-- <ul>
+                                        <li><a href="https://www.facebook.com/devitems/?ref=bookmarks"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/devitemsllc/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="teacher.html#"><i class="zmdi zmdi-vimeo"></i></a></li>
+                                        <li><a href="https://twitter.com/devitemsllc"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                                            </div>
+                </div>
+            </div>
+            <!-- Teacher End -->
+        </div>
+    </section>
+        <!-- Footer Start -->
+        <footer class="footer-area">
+            <div class="main-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="single-widget">
+                                <h3>আমাদের ফেসবুক পেজ</h3>
+                                <div class="fb-page" data-href="https://www.facebook.com/Harinarayanpurunionhighschool" data-tabs="" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Harinarayanpurunionhighschool" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Harinarayanpurunionhighschool">Harinarayanpur Union High School</a></blockquote></div>
+                                <div id="fb-root"></div>
+                                <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v12.0" nonce="u6m43ve8"></script>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 pl-30">
+                            <div class="single-widget">
+                                <h3>মেনু</h3>
+                                <ul>
+                                    <li><a style="color: blanchedalmond;" href="https://hnpschoolnoa.edu.bd">Home</a></li>
+                                    <li><a style="color: blanchedalmond;" href="https://hnpschoolnoa.edu.bd/about-us">About Us</a></li>
+                                    <li><a style="color: blanchedalmond;" href="https://hnpschoolnoa.edu.bd/contact-us">Contact Us</a></li>
+                                    <li><a style="color: blanchedalmond;" href="https://hnpschoolnoa.edu.bd/login">Login</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 pt-4 pt-lg-0">
+                            <div class="single-widget">
+                                <h3>দ্রুত যোগাযোগ</h3>
+                                <p>মাইজদী কোর্ট সদর নোয়াখালী</p>
+                                <p>০১৮১৮২৩৩১৩৭</p>
+                                <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="caa2a4bab9a9a2a5a5a6e4a4a5ab8aada7aba3a6e4a9a5a7">[email&#160;protected]</a><br>www.hnpschoolnoa.edu.bd</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 pt-4 pt-lg-0">
+                            <div class="single-widget">
+                                <h3>ভিজিটিং কাউন্টার</h3>
+                                <a href='https://dissertation-writingservice.com/'></a> <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=0944e990f2c6c48f6a3e2acd55b4f18bc18c8c4a'></script>
+                                    <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/891458/t/0"></script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Copyright © <a style="color:red;"  target="_blank" href="#">nTechBangla</a> 2021. All Right Reserved By <a  style="color:red;" href="#" target="_blank">Harinarayanpur Union High School.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+        <script src="https://hnpschoolnoa.edu.bd/frontend/js/vendor/jquery-3.6.0.min.js"></script>
+<script src="https://hnpschoolnoa.edu.bd/frontend/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+<script src="https://hnpschoolnoa.edu.bd/frontend/js/bootstrap.bundle.min.js"></script>
+<script src="https://hnpschoolnoa.edu.bd/frontend/js/jquery.meanmenu.js"></script>
+<script src="https://hnpschoolnoa.edu.bd/frontend/js/jquery.magnific-popup.js"></script>
+<script src="https://hnpschoolnoa.edu.bd/frontend/js/ajax-mail.js"></script>
+
+<script src="https://hnpschoolnoa.edu.bd/frontend/js/owl.carousel.min.js"></script>
+<script src="https://hnpschoolnoa.edu.bd/frontend/js/jquery.mb.YTPlayer.js"></script>
+<script src="https://hnpschoolnoa.edu.bd/frontend/js/plugins.js"></script>
+<script src="https://hnpschoolnoa.edu.bd/frontend/js/main.js"></script>            </body>
+</html>
